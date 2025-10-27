@@ -3,10 +3,6 @@ Download images from websites quickly and easily.
 
 High-res image scraper for product pages. It automatically opens the gallery/lightbox, iterates thumbnails, triggers zoom when needed, and collects **true** large assets (e.g. ≥1000×1000).
 
-<p align="center">
-  <img src="assets/screenshot_popup.png" alt="Popup UI screenshot" width="420"/>
-</p>
-
 ## ✨ Features
 - Filters by **minimum width/height** (e.g. 1000×1000).
 - **Auto-interact:** open expanded/zoom view and click through thumbnails.
