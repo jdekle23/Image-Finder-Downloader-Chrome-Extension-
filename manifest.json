@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Image Finder & Downloader (Diag)",
+  "version": "1.0.0",
+  "description": "Finds and downloads high-resolution images (e.g., gallery or \u22651000\u00d71000).",
+  "permissions": [
+    "downloads",
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Image Finder (Diag)"
+  }
+}
